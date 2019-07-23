@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "TanMuhittin\\LeftResourceIndexLınks\\": "src/"
+            "TanMuhittin\\LeftResourceIndexLinks\\": "src/"
         }
     },
     "extra": {
