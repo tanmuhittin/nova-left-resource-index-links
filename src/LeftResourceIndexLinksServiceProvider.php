@@ -16,7 +16,7 @@ class LeftResourceIndexLinksServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('nova-scroll-top', __DIR__ . '/../dist/js/nova-left-resource-index-links.js');
+            Nova::script('nova-left-resource-index-links', __DIR__ . '/../dist/js/nova-left-resource-index-links.js');
         });
     }
 }
