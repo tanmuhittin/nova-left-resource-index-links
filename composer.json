@@ -1,0 +1,25 @@
+{
+    "name": "tanmuhittin/nova-left-resource-index-links",
+    "description": "Moves Laravel Nova Index Links to Left",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhittin Tan",
+            "email": "tanmuhittin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TanMuhittin\\LeftResourceIndexLınks\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TanMuhittin\\LeftResourceIndexLinks\\LeftResourceIndexLinksServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
