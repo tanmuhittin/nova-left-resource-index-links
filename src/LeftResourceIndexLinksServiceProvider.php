@@ -1,6 +1,6 @@
 <?php
 
-namespace TanMuhittin\NovaScrollTop;
+namespace TanMuhittin\LeftResourceIndexLinks;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
